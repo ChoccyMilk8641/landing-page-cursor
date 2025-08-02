@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub - Your Ultimate Gaming Destination</title>
+    <meta name="description" content="Discover the latest games, consoles, and gaming accessories at GameHub - Your premier gaming store">
+    <meta name="keywords" content="games, gaming, consoles, accessories, PlayStation, Xbox, Nintendo">
+    <meta name="author" content="GameHub">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="GameHub - Your Ultimate Gaming Destination">
+    <meta property="og:description" content="Discover the latest games, consoles, and gaming accessories">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gamehub.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="Main navigation">
+                <div class="nav-brand">
+                    <a href="#home" class="logo">
+                        <i class="fas fa-gamepad"></i>
+                        <span>GameHub</span>
+                    </a>
+                </div>
+                
+                <ul class="nav-menu" role="menubar">
+                    <li role="none"><a href="#home" role="menuitem">Home</a></li>
+                    <li role="none"><a href="#games" role="menuitem">Games</a></li>
+                    <li role="none"><a href="#consoles" role="menuitem">Consoles</a></li>
+                    <li role="none"><a href="#accessories" role="menuitem">Accessories</a></li>
+                    <li role="none"><a href="#deals" role="menuitem">Deals</a></li>
+                    <li role="none"><a href="#about" role="menuitem">About</a></li>
+                    <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <a href="#search" class="nav-action" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a href="#cart" class="nav-action" aria-label="Shopping cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                    <a href="#account" class="nav-action" aria-label="Account">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero" role="banner">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Welcome to <span class="highlight">GameHub</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Your ultimate destination for the latest games, consoles, and premium gaming accessories
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#featured" class="btn btn-primary">Shop Now</a>
+                        <a href="#deals" class="btn btn-secondary">View Deals</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://preview.redd.it/8cxegm3jk7u91.jpg?width=3087&format=pjpg&auto=webp&s=6f4286e32bb68376df3825db395b5f71b90f46ae" 
+                         alt="Gaming collection showcase" 
+                         loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Categories -->
+        <section class="categories">
+            <div class="container">
+                <h2 class="section-title">Shop by Category</h2>
+                <div class="categories-grid">
+                    <a href="#games" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Video Games</h3>
+                        <p>Latest releases and classics</p>
+                    </a>
+                    
+                    <a href="#consoles" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-tv"></i>
+                        </div>
+                        <h3>Gaming Consoles</h3>
+                        <p>PS5, Xbox, Nintendo Switch</p>
+                    </a>
+                    
+                    <a href="#accessories" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-headphones"></i>
+                        </div>
+                        <h3>Accessories</h3>
+                        <p>Controllers, headsets, and more</p>
+                    </a>
+                    
+                    <a href="#collectibles" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Collectibles</h3>
+                        <p>Limited editions and merch</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Games -->
+        <section id="games" class="featured-games">
+            <div class="container">
+                <h2 class="section-title">Featured Games</h2>
+                <div class="games-grid">
+                    <article class="game-card">
+                        <div class="game-image">
+                            <img src="https://www.mobygames.com/images/covers/l/795696-cyberpunk-2077-playstation-4-front-cover.jpg" 
+                                 alt="Cyberpunk 2077" 
+                                 loading="lazy">
+                            <div class="game-overlay">
+                                <button class="btn btn-sm">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="game-info">
+                            <h3>Cyberpunk 2077</h3>
+                            <div class="game-meta">
+                                <span class="platform">PS5</span>
+                                <span class="genre">RPG</span>
+                            </div>
+                            <div class="game-price">
+                                <span class="current-price">$59.99</span>
+                                <span class="original-price">$69.99</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="game-card">
+                        <div class="game-image">
+                            <img src="https://www.mobygames.com/images/covers/l/775869-elden-ring-xbox-one-front-cover.jpg" 
+                                 alt="Elden Ring" 
+                                 loading="lazy">
+                            <div class="game-overlay">
+                                <button class="btn btn-sm">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="game-info">
+                            <h3>Elden Ring</h3>
+                            <div class="game-meta">
+                                <span class="platform">Xbox</span>
+                                <span class="genre">Action RPG</span>
+                            </div>
+                            <div class="game-price">
+                                <span class="current-price">$49.99</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="game-card">
+                        <div class="game-image">
+                            <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/mixcollage-08-dec-2024-01-22-pm-530.jpg" 
+                                 alt="God of War Ragnarök" 
+                                 loading="lazy">
+                            <div class="game-overlay">
+                                <button class="btn btn-sm">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="game-info">
+                            <h3>God of War Ragnarök</h3>
+                            <div class="game-meta">
+                                <span class="platform">PS5</span>
+                                <span class="genre">Action</span>
+                            </div>
+                            <div class="game-price">
+                                <span class="current-price">$69.99</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="game-card">
+                        <div class="game-image">
+                            <img src="https://tse4.mm.bing.net/th/id/OIP.h6pqVz24964DyvUrKrB-1AHaJ4?w=1440&h=1920&rs=1&pid=ImgDetMain&o=7&rm=3" 
+                                 alt="Spider-Man 2" 
+                                 loading="lazy">
+                            <div class="game-overlay">
+                                <button class="btn btn-sm">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="game-info">
+                            <h3>Spider-Man 2</h3>
+                            <div class="game-meta">
+                                <span class="platform">PS5</span>
+                                <span class="genre">Action</span>
+                            </div>
+                            <div class="game-price">
+                                <span class="current-price">$69.99</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="game-card">
+                        <div class="game-image">
+                            <img src="https://th.bing.com/th/id/OIP.JJ1ahpWZSRwlLBYKL3WD9AHaE0?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" 
+                                 alt="Red dead redemption 2" 
+                                 loading="lazy">
+                            <div class="game-overlay">
+                                <button class="btn btn-sm">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="game-info">
+                            <h3>Red Dead Redemption 2</h3>
+                            <div class="game-meta">
+                                <span class="platform">PS5</span>
+                                <span class="genre">Action</span>
+                            </div>
+                            <div class="game-price">
+                                <span class="current-price">$69.99</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="game-card">
+                        <div class="game-image">
+                            <img src="https://i.ytimg.com/vi/pPQh57keVQg/maxresdefault.jpg" 
+                                 alt="mineirinho" 
+                                 loading="lazy">
+                            <div class="game-overlay">
+                                <button class="btn btn-sm">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="game-info">
+                            <h3>Mineirinho Ultra Adventures</h3>
+                            <div class="game-meta">
+                                <span class="platform">PS5</span>
+                                <span class="genre">Action</span>
+                            </div>
+                            <div class="game-price">
+                                <span class="current-price">$999.99</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gaming Consoles -->
+        <section id="consoles" class="consoles">
+            <div class="container">
+                <h2 class="section-title">Gaming Consoles</h2>
+                <div class="consoles-grid">
+                    <article class="console-card">
+                        <div class="console-image">
+                            <img src="https://www.notebookcheck.org/fileadmin/Notebooks/News/_nc3/PA5.png" 
+                                 alt="PlayStation 5" 
+                                 loading="lazy">
+                        </div>
+                        <div class="console-info">
+                            <h3>PlayStation 5</h3>
+                            <p class="console-description">
+                                Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio.
+                            </p>
+                            <div class="console-features">
+                                <span class="feature">4K Gaming</span>
+                                <span class="feature">Ray Tracing</span>
+                                <span class="feature">120fps</span>
+                            </div>
+                            <div class="console-price">
+                                <span class="price">$499.99</span>
+                                <span class="availability in-stock">In Stock</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="console-card">
+                        <div class="console-image">
+                            <img src="https://media.wired.com/photos/5fa5dc3dba670daaf8e97a8d/master/w_2560%2Cc_limit/games_gear_series-x.jpg" 
+                                 alt="Xbox Series X" 
+                                 loading="lazy">
+                        </div>
+                        <div class="console-info">
+                            <h3>Xbox Series X</h3>
+                            <p class="console-description">
+                                The most powerful Xbox ever, featuring 4K gaming at up to 120 frames per second, 8K HDR, and ray tracing support.
+                            </p>
+                            <div class="console-features">
+                                <span class="feature">4K Gaming</span>
+                                <span class="feature">Game Pass</span>
+                                <span class="feature">Backward Compatible</span>
+                            </div>
+                            <div class="console-price">
+                                <span class="price">$499.99</span>
+                                <span class="availability in-stock">In Stock</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="console-card">
+                        <div class="console-image">
+                            <img src="https://tse4.mm.bing.net/th/id/OIP.2RB2s6ZJRzEtLfLPehwFjAHaEL?rs=1&pid=ImgDetMain&o=7&rm=3" 
+                                 alt="Nintendo Switch OLED" 
+                                 loading="lazy">
+                        </div>
+                        <div class="console-info">
+                            <h3>Nintendo Switch OLED</h3>
+                            <p class="console-description">
+                                Gaming anywhere with a vibrant 7-inch OLED screen, enhanced audio, and a wide adjustable stand.
+                            </p>
+                            <div class="console-features">
+                                <span class="feature">OLED Screen</span>
+                                <span class="feature">Portable</span>
+                                <span class="feature">Nintendo Games</span>
+                            </div>
+                            <div class="console-price">
+                                <span class="price">$349.99</span>
+                                <span class="availability in-stock">In Stock</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gaming Accessories -->
+        <section id="accessories" class="accessories">
+            <div class="container">
+                <h2 class="section-title">Gaming Accessories</h2>
+                <div class="accessories-grid">
+                    <article class="accessory-card">
+                        <div class="accessory-image">
+                            <img src="https://tse3.mm.bing.net/th/id/OIP.wyLEYlUKHwZayKssC9Z4RAHaE1?rs=1&pid=ImgDetMain&o=7&rm=3" 
+                                 alt="DualSense Controller" 
+                                 loading="lazy">
+                        </div>
+                        <div class="accessory-info">
+                            <h3>DualSense Controller</h3>
+                            <p>Haptic feedback and adaptive triggers for immersive gameplay</p>
+                            <div class="accessory-price">
+                                <span class="price">$69.99</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="accessory-card">
+                        <div class="accessory-image">
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.AHiUvtCVUviVGnSi9UdoRQHaEK?w=1280&h=720&rs=1&pid=ImgDetMain&o=7&rm=3" 
+                                 alt="Pulse 3D Headset" 
+                                 loading="lazy">
+                        </div>
+                        <div class="accessory-info">
+                            <h3>Pulse 3D Headset</h3>
+                            <p>3D audio for immersive gaming experience</p>
+                            <div class="accessory-price">
+                                <span class="price">$99.99</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="accessory-card">
+                        <div class="accessory-image">
+                            <img src="https://www.razzem.com/wp-content/uploads/2023/02/blackwidowv3.jpg" 
+                                 alt="Mechanical Gaming Keyboard" 
+                                 loading="lazy">
+                        </div>
+                        <div class="accessory-info">
+                            <h3>Mechanical Gaming Keyboard</h3>
+                            <p>RGB backlit with mechanical switches for precision</p>
+                            <div class="accessory-price">
+                                <span class="price">$129.99</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="accessory-card">
+                        <div class="accessory-image">
+                            <img src="https://th.bing.com/th/id/R.fe7bef684dfeb57bb9aab4416ce0e1de?rik=eFOTiz9GmFiRzA&riu=http%3a%2f%2fcdn.mos.cms.futurecdn.net%2fqM5cNq43DgnRoAwntca8jS.jpg&ehk=CZJjZAQhrxo7bOdLuFg5bWWRpPYHYxZ9%2bDSpPi8l0eY%3d&risl=&pid=ImgRaw&r=0" 
+                                 alt="Gaming Mouse" 
+                                 loading="lazy">
+                        </div>
+                        <div class="accessory-info">
+                            <h3>Gaming Mouse</h3>
+                            <p>High DPI with programmable buttons for competitive gaming</p>
+                            <div class="accessory-price">
+                                <span class="price">$79.99</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accessory-card">
+                        <div class="accessory-image">
+                            <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/11/viewsonic-xg340c-2k-34-uwqhd-180hz-gaming-monitor-review.jpg" 
+                                 alt="Gaming Monitor" 
+                                 loading="lazy">
+                        </div>
+                        <div class="accessory-info">
+                            <h3>Gaming Monitor</h3>
+                            <p>4k 240hz for competitive gaming</p>
+                            <div class="accessory-price">
+                                <span class="price">$79.99</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accessory-card">
+                        <div class="accessory-image">
+                            <img src="https://th.bing.com/th/id/OIP.7ikbb23utHGWGN8a5pwSgwHaEK?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" 
+                                 alt="plastic chair" 
+                                 loading="lazy">
+                        </div>
+                        <div class="accessory-info">
+                            <h3>Vergil's Plastic Chair</h3>
+                            <p>I Am The Storm That Is Approaching</p>
+                            <div class="accessory-price">
+                                <span class="price">$999.99</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Deals -->
+        <section id="deals" class="deals">
+            <div class="container">
+                <h2 class="section-title">Special Deals</h2>
+                <div class="deals-grid">
+                    <article class="deal-card">
+                        <div class="deal-badge">50% OFF</div>
+                        <div class="deal-image">
+                            <img src="https://tse3.mm.bing.net/th/id/OIP.qLIo7hyNp0JIwt3ShswY2QHaLH?rs=1&pid=ImgDetMain&o=7&rm=3https://tse3.mm.bing.net/th/id/OIP.qLIo7hyNp0JIwt3ShswY2QHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" 
+                                 alt="Assassin's Creed Valhalla" 
+                                 loading="lazy">
+                        </div>
+                        <div class="deal-info">
+                            <h3>Assassin's Creed Valhalla</h3>
+                            <div class="deal-price">
+                                <span class="current-price">$29.99</span>
+                                <span class="original-price">$59.99</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="deal-card">
+                        <div class="deal-badge">30% OFF</div>
+                        <div class="deal-image">
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.6nEdcAz1Nuszunxj6bIghgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" 
+                                 alt="FIFA 24" 
+                                 loading="lazy">
+                        </div>
+                        <div class="deal-info">
+                            <h3>FIFA 24</h3>
+                            <div class="deal-price">
+                                <span class="current-price">$48.99</span>
+                                <span class="original-price">$69.99</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="deal-card">
+                        <div class="deal-badge">25% OFF</div>
+                        <div class="deal-image">
+                            <img src="https://http2.mlstatic.com/D_NQ_NP_750501-MLB71850109521_092023-O.webp" 
+                                 alt="Gaming Chair" 
+                                 loading="lazy">
+                        </div>
+                        <div class="deal-info">
+                            <h3>Ergonomic Gaming Chair</h3>
+                            <div class="deal-price">
+                                <span class="current-price">$149.99</span>
+                                <span class="original-price">$199.99</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">About GameHub</h2>
+                        <p>
+                            GameHub is your premier destination for all things gaming. Founded in 2014, we've been serving the gaming community with the latest games, consoles, and premium accessories from top brands worldwide.
+                        </p>
+                        <p>
+                            Our mission is to provide gamers with the best products at competitive prices, backed by exceptional customer service and expert knowledge. Whether you're a casual gamer or a hardcore enthusiast, we have everything you need to enhance your gaming experience.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">50K+</span>
+                                <span class="stat-label">Happy Customers</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">1000+</span>
+                                <span class="stat-label">Products</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://i.pinimg.com/originals/94/b7/a9/94b7a96881f6e01222dd8075a7e7965e.png" 
+                             alt="GameHub store interior" 
+                             loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Address</h3>
+                                <p>123 Gaming Street<br>Game City, GC 12345<br>United States</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>(555) 123-4567</p>
+                                <p>(555) 987-6543</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>info@gamestore.com</p>
+                                <p>support@gamestore.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 9AM - 9PM</p>
+                                <p>Saturday - Sunday: 10AM - 8PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <i class="fas fa-gamepad"></i>
+                        <span>GameHub</span>
+                    </div>
+                    <p>Your ultimate gaming destination for the latest games, consoles, and premium accessories.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#games">Video Games</a></li>
+                        <li><a href="#consoles">Gaming Consoles</a></li>
+                        <li><a href="#accessories">Accessories</a></li>
+                        <li><a href="#deals">Special Deals</a></li>
+                        <li><a href="#collectibles">Collectibles</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#shipping">Shipping Information</a></li>
+                        <li><a href="#returns">Returns & Exchanges</a></li>
+                        <li><a href="#warranty">Warranty</a></li>
+                        <li><a href="#support">Technical Support</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#press">Press</a></li>
+                        <li><a href="#partners">Partners</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get updates on new releases and exclusive deals!</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 GameHub. All rights reserved.</p>
+                    <ul class="footer-links">
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#cookies">Cookie Policy</a></li>
+                        <li><a href="#sitemap">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
